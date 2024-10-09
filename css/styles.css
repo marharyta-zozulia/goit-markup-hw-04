@@ -443,6 +443,19 @@ border-top: none;
         color: #f4f4fd;
         max-width: 264px;
 }
+
+.social-media {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.footer-logo-text {
+    margin-right: 120px;
+}
 .footer-icon-link{
     display: flex;
     justify-content: center;
@@ -456,11 +469,11 @@ border-top: none;
 }
 .footer-icon-link:hover,
 .footer-icon-link:focus {
-    background-color: ;
+    background-color: #31d0aa ;
 }
 
 .footer-icon-item{
-width: 40px;
+    width: 40px;
     height: 40px;
 }
 
