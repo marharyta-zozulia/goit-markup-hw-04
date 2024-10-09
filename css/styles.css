@@ -69,7 +69,24 @@ h6
 .header-menu-item {
     position: relative;
 }
-
+.header-menu-item:first-child::after {
+    content: '';
+    /* Вміст псевдоелемента */
+    width: 100%;
+    /* Ширина псевдоелемента */
+    position: absolute;
+    /* Позиціювання відносно батьківського елемента */
+    left: 0;
+    /* Відстань до лівого краю */
+    bottom: -1px;
+    /* Відстань до нижнього краю */
+    height: 4px;
+    /* Висота псевдоелемента */
+    background-color: #404bbf;
+    /* Колір фону */
+    border-radius: 2px;
+    /* Закруглення кутів */
+}
 .header-menu-link:focus{
     color: #404bbf
 
