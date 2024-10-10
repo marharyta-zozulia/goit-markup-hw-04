@@ -141,6 +141,7 @@ display: block;
 .header-address {
     font-style: normal;
     color: #434455;
+    margin-left: auto;
 
 }
 .header-contact-item{
@@ -189,7 +190,7 @@ align-items: center;
 
 }
 .header-contact-item{
-   margin-right: 40px;
+  
 
 }
 .header-contact-item:last-child{
@@ -199,27 +200,37 @@ align-items: center;
 .header-contact-information{
     display: flex;
     gap: 40px;
-    margin-left: auto;
+   
 }
 
 .header-navigation{
     display: flex;
-    gap: 40px;
-    margin: 0 auto;
     align-items: center;
-    padding: 0 15px;
+    
 
 }
 .header-container{
     display: flex;
     align-items: center;
-    padding: 24px 0;
+    
 }
 .header-logo{
     margin-right: 76px;
     padding: 24px 0;
 }
+.header-logo-studio {
+    color: #2e2f42;
+}
 
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
 
 /* ------------------------------------- */
 .intro-section{
@@ -231,9 +242,12 @@ align-items: center;
     background-color: #fff;
     background-color: #2e2f42;
     margin-left: auto;
-    margin-right: auto;
-    padding-top: 188px;
-    padding-bottom: 188px;
+        margin-right: auto;
+        padding-top: 188px;
+            padding-bottom: 188px;
+    
+
+
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),url(../images/people-office.jpg);
     
@@ -246,8 +260,9 @@ align-items: center;
     text-align: center;
     color: #fff;
     max-width: 496px;
-    padding: 188px 0 ;
-    margin: 0 auto;
+    margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
 
 }
 .order-service-button {
@@ -314,7 +329,8 @@ align-items: center;
     width: calc((100% - 72px) / 4);
 }
 
-.features-item-title {font-weight: 500;
+.features-item-title {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
